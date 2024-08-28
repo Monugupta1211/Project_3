@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+   
+}
+
+body{
+    margin:0;
+    padding:0;
+    height: 100vh;
+    
+    background-image: url(./bg.png);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:center;
+      
+      
+
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color: #000000;
+    height: 50px;
+}
+
+nav img{
+    margin-left: 50px;
+    height:20px;
+    width: 55px;
+}
+
+/* .line{
+    height: 100px;
+    
+} */
+
+.list{
+    display: flex;
+    flex-direction:row;
+    gap:20px;
+    list-style:none;
+    
+}
+
+.list a{
+    text-decoration: none;
+    cursor:pointer;
+    color:white;
+    font-size: 10px;
+    font-weight: 600;
+
+}
+
+.list a:hover{
+    color:#000000;
+    background-color: #ffffff;
+
+}
+
+nav button{
+    background-color: #c857c8c7;
+    margin-right:30px;
+    padding:5px 10px;
+    border-style: none;
+    border-radius: 5px;
+    color:#ffffff;
+    font-size: 10px;
+    font-weight: 600;
+
+}
+nav button:hover{
+    background-color: #f5f5f5;
+    color:#000000;
+}
+
+
+
+/* Section */
+
+section div {
+    margin-top:150px;
+    margin-left:250px;
+    align-items: center;
+    
+}
+
+section div h1{
+    color:#ffffff;
+    font-size: 30px;
+    font-weight: 900;
+
+}
+
+.h1text1{
+    margin-left: 15px;
+}
+
+.h1text2{
+    font-size: 35px;
+}
+
+div p{
+    color:white;
+}
+
+.ptext1{
+    font-size: 12px;
+    font-weight: 700;
+    margin-left:35px;
+    letter-spacing: 1px;
+}
+
+section div button{
+    margin-top:35px;
+    margin-left: 110px;
+    padding:7px 15px;
+    background-color: #c857c8c7;
+    color:#ffffff;
+    border-radius: 8px;
+    border-style: none;
+    font-weight: 800;
+
+}
+
+
+section div button:hover{
+    background-color: #ffffff;
+    color:#000000;
+    border-style: none;
+    font-weight: 800;
+    border-color: #c857c8c7;
+}
